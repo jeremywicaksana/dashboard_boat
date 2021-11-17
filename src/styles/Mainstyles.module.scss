@@ -1,0 +1,35 @@
+.navbar {
+    border: 1px solid #ff0000;
+}
+
+.buttonNavbar {
+    width: 100%;
+    height: 40px; 
+    margin-bottom: 5px; 
+    background-color: #B8DBFB; 
+    border: 1px solid #B8DBFB;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttonNormal {
+    width: 100%;
+    height: 40px; 
+    margin-bottom: 12px !important;
+    background-color: #ffffff; 
+    box-sizing: border-box;
+    display: flex;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+.buttonText {
+    text-transform: none;
+    left: 10px !important;
+    position: absolute !important; 
+    font-size: 1vw !important;
+}
+
+.selectedButton {
+    background-color: #a2a8ff !important;
+}

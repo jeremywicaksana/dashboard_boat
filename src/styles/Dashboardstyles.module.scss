@@ -1,0 +1,160 @@
+.graphContainer {
+    display: flex;
+    border: 1px solid #ff0000;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+  
+.centerSelector {
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    height: 100%; 
+    align-items: center; 
+    justify-content: center;
+}
+
+
+.centerSelector {
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    height: 100%; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.selectorContainer {
+    overflow-y: scroll !important;
+    display: flex; 
+    flex-direction: column; 
+    background-color: white;
+    justify-content: space-around;
+    height: 90%; 
+    width: 90%; 
+    border-radius: 10px;
+}
+
+.upperRight {
+    position: absolute !important;
+    top: 0px !important;
+    right: 0px !important;
+}
+
+//Graph sizes
+
+.graphSmall {
+    display: flex;
+    width: 21vw;
+    height: 25vh;
+}
+
+.graphMedium {
+    display: flex;
+    width: 45vw;
+    height: 50vh;
+}
+
+.graphLarge {
+    display: flex;
+    width: 90.5vw;
+    height: 50vh;
+}
+
+// button for adding graph
+.button {
+    opacity: 0.1;
+    
+    &_small {
+        @extend .button;
+        display: flex;
+        width: 22vw !important;
+        height: 25vh !important;
+    }
+
+    &_medium {
+        @extend .button;
+        display: flex;
+        width: 44vw !important;
+        height: 25vh !important;
+    }
+
+    &_large {
+        @extend .button;
+        display: flex;
+        width: 88vw !important;
+        height: 25vh !important;
+    }
+}
+
+.addIcon {
+    width : 100% !important;
+    height: 100% !important;
+}
+
+
+//single or multi graph
+.choices {
+    position: absolute;
+    top: 0px;
+    // width: 90vw;
+
+    &_button {
+        @extend .choices;
+        background-color: #d6d6d6 !important;
+        width: 45vw !important;
+        height: 6vh !important;
+    }
+}
+
+//button for submitting
+.submitLocation {
+    position: absolute;
+    bottom: 1px;
+}
+
+.submitButton {
+    width: 90vw;
+    height: 5vh;
+    background-color: #a2a8ff !important;
+}
+
+//max width for modal
+.modalContent {
+    width: 90vw;
+}
+
+//chart type icon
+.chartType {
+    width: 8vw !important;
+    height: 8vh !important;
+}
+
+
+//icon for sizes
+.smallSizeIcon {
+    width: 5vw !important;
+    height: 5vh !important;
+}
+
+.mediumSizeIcon {
+    width: 8vw !important;
+    height: 8vh !important;
+}
+
+.largeSizeIcon {
+    width: 12vw !important;
+    height: 12vh !important;
+}
+
+.textAdapt {
+    font-size: 2.5rem !important;
+    @media screen and (min-width:260px) {
+        font-size: 5rem !important;
+    }
+    @media screen and (min-width:520px) {
+        font-size: 10rem !important;
+    }
+}

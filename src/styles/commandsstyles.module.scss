@@ -1,0 +1,29 @@
+.root {
+  overflow-y: auto;
+  height: 100vh;
+
+  .group {
+    font-size: 1vw !important;
+    font-family: monospace;
+    margin: 10px;
+
+    div button {
+      white-space: nowrap;
+
+      p {
+        font-family: monospace !important;
+      }
+    }
+  }
+}
+
+.result {
+  font-size: 1vw !important;
+  font-family: monospace;
+
+  .resultbox {
+    padding: 10px;
+    background-color: black;
+    color: limegreen;
+  }
+}
